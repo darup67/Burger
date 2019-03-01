@@ -1,4 +1,5 @@
 var express = require("express");
+var methride = require("method-override");
 var bodyParser = require("body-parser");
 
 var app = express();
@@ -10,6 +11,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 
 app.use(express.static(process.cwd() + './public'));
+
+app.use(methride("_method"));
 
 var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
