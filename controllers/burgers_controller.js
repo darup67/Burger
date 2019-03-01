@@ -1,12 +1,12 @@
 var express = require("express");
 
-// var app = express();
+var app = express();
 
 var router = express.Router();
 
 var burger = require("../models/burger.js");
 
-// module.exports
+module.exports
 
 router.get("/", function(req, res) {
     burger.selectAll(function(data) {
