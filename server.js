@@ -1,5 +1,4 @@
 var express = require("express");
-var methride = require("method-override");
 var bodyParser = require("body-parser");
 
 var app = express();
@@ -10,20 +9,18 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 
-app.use(express.static(process.cwd() + './public'));
-
-
-app.use(methride("_method"));
-
+// app.use(express.static(process.cwd() + './public'));
 
 var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 
-var router = require("./controllers/burgers_controller")(app);
-app.use('/', router);
+// var router = require("./controllers/burgers_controller")(app);
+var router = require("./controllers/burgers_controller");
+
+// app.use(router);
 
 app.listen(PORT, function() {
-    console.log("App listening on PORT: " + PORT);
+    console.log("App listening on PORT:" + PORT);
 });
