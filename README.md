@@ -30,4 +30,13 @@ Follows Model View Controller (MVC) pattern
 
 # Technologies Used
 
-HTML, CSS, Javascript, jQuery, MySQL, Node.js, Express, Handlebars, MVC, and ORM.
+:ballot_box_with_check:	HTML 
+:ballot_box_with_check:	CSS 
+:ballot_box_with_check:	Javascript 
+:ballot_box_with_check:	jQuery 
+:ballot_box_with_check:	MySQL 
+:ballot_box_with_check:	Node.js 
+:ballot_box_with_check:	Express
+:ballot_box_with_check:	Handlebars
+:ballot_box_with_check:	MVC (Model, View, Controller)
+:ballot_box_with_check:	ORM.
