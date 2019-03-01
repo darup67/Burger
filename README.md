@@ -12,6 +12,22 @@ Each burger in the waiting area also has a button to eat it. When the user click
 Burgers on the right side of the page have a delete button to remove it from view.
 The app stores every burger in a database whether eaten or not.
 
+# Design
+
+Burger Log is a restaurant app that lets users input the names of burgers they'd like to eat.
+
+Whenever a user submits a burger's name, the app displays the burger on the left side of the page -- waiting to be devoured.
+
+Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
+
+The app stores every burger in a mySQL database, whether devoured or not.
+
+The user can also delete a devoured burger by clicking the delete (X) icon to the right of devoured burger.
+
+I used ES6 classes for all the classes/objects (e.g. Orm, Connection etc)
+
+Follows Model View Controller (MVC) pattern
+
 # Technologies Used
 
 HTML, CSS, Javascript, jQuery, MySQL, Node.js, Express, Handlebars, MVC, and ORM.
