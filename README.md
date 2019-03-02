@@ -20,13 +20,10 @@ Whenever a user submits a burger's name, the app displays the burger on the left
 
 Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
 
-The app stores every burger in a mySQL database, whether devoured or not.
+- The app stores every burger in a mySQL database, whether devoured or not.
 
-The user can also delete a devoured burger by clicking the delete (X) icon to the right of devoured burger.
 
-I used ES6 classes for all the classes/objects (e.g. Orm, Connection etc)
-
-Follows Model View Controller (MVC) pattern
+- Follows Model View Controller (MVC) pattern
 
 # Technologies Used
 
