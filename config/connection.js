@@ -1,4 +1,6 @@
 var mysql = require("mysql");
+require("dotenv").config();
+let env = process.env.NODE_ENV || 'development';
 
 if (process.env.JAWSDB_URL) {
     var connection = mysql.createConnection(process.env.JAWSDB_URL);
