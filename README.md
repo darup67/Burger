@@ -2,7 +2,7 @@
 
 # Welcome to burger app!
 
-Follow the link! # https://quiet-everglades-98495.herokuapp.com/
+Follow the link! https://quiet-everglades-98495.herokuapp.com/
 
 A burger logger web application that uses MySQL, Node, Heroku: JawsDB, Heroku Deployment, Express, Handlebars, and homemade ORM. It follows the MVC design pattern, uses Node and MySQL to query and route data in the app, and uses Handlebars to generate the HTML.
 
