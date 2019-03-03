@@ -1,7 +1,7 @@
 var orm = require("../config/orm.js");
 var path = require('path');
 
-var db = require("../models");
+// var db = require("./models/burger.js");
 
 var burger = {
     selectAll: function(cb) {
