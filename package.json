@@ -4,6 +4,8 @@
   "description": "burger app",
   "main": "server.js",
   "dependencies": {
+    "config.json": "0.0.4",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
     "mysql": "^2.16.0",
