@@ -47,4 +47,4 @@ Each burger in the waiting area also has a Devour it! button. When the user clic
 
 :ballot_box_with_check:	MVC (Model, View, Controller)
 
-:ballot_box_with_check:	ORM.
+:ballot_box_with_check:	ORM
