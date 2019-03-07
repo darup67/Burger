@@ -1,6 +1,6 @@
 var express = require("express");
 var bodyParser = require("body-parser");
-// var path = require('path');
+var path = require('path');
 var exphbs = require("express-handlebars");
 
 
@@ -8,7 +8,7 @@ var app = express();
 
 app.use(express.static("public"));
 
-var PORT = process.env.PORT || 8420;
+var PORT = process.env.PORT || 3000;
 
 
 app.use(bodyParser.json());
