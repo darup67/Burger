@@ -1,13 +1,16 @@
 .jumbotron {
-    background-image: url("/public/assets/img/bobburger.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-top: 10px;
+    background-image: url("/assets/img/burgerbackground.jpg");
+    html {
+        background: url(images/bg.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 }
 
 body {
-    background-size: cover;
+    background-size: full;
 }
 
 .text-center {
@@ -18,15 +21,15 @@ body {
 h3,
 h5 {
     color: aliceblue;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Comic Sans', ;
 }
 
 p {
     color: aliceblue;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Comic Sans', ;
 }
 
 footer {
     color: aliceblue;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', ;
 }
