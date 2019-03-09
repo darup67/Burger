@@ -25,19 +25,19 @@ Each burger in the waiting area also has a Devour it! button. When the user clic
 
 - Follows Model View Controller (MVC) pattern
 
-*Step 1 - Clone my repo using the command line below.
+# Step 1 - Clone my repo using the command line below.
 
 git clone https://github.com/darup67/Burger.git
 
-*Step 2 - Change directory to the cloned repo folder.
+# Step 2 - Change directory to the cloned repo folder.
 
 cd Eat-Da-Burger
 
-*Step 3 - Install all required NPM packages.
+# Step 3 - Install all required NPM packages.
 
 npm install
 
-*Step 4 - Start the application server using the command line below
+# Step 4 - Start the application server using the command line below
 
 node server.js
 
