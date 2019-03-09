@@ -1,7 +1,7 @@
 .jumbotron {
     background-image: url("/assets/img/burgerbackground.jpg");
     html {
-        background: url(images/bg.jpg) no-repeat center center fixed;
+        background: url(/assets/img/bobburger.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -10,7 +10,7 @@
 }
 
 body {
-    background-size: full;
+    background-size: cover;
 }
 
 .text-center {
@@ -20,16 +20,16 @@ body {
 
 h3,
 h5 {
-    color: aliceblue;
+    color: whitesmoke;
     font-family: 'Comic Sans', ;
 }
 
 p {
-    color: aliceblue;
+    color: whitesmoke;
     font-family: 'Comic Sans', ;
 }
 
 footer {
-    color: aliceblue;
-    font-family: 'Indie Flower', ;
+    color: whitesmoke;
+    font-family: 'Comic Sans', ;
 }
