@@ -1,4 +1,4 @@
-# "Eat-Da-Burger" :hamburger::fries:
+# "Burger" :hamburger::fries:
 
 # Welcome to burger app!
 
@@ -31,7 +31,7 @@ git clone https://github.com/darup67/Burger.git
 
 # Step 2 - Change directory to the cloned repo folder.
 
-cd Eat-Da-Burger
+cd burger
 
 # Step 3 - Install all required NPM packages.
 
