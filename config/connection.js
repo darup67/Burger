@@ -13,6 +13,8 @@ if (process.env.JAWSDB_URL) {
     })
 };
 
+var mysql = require('mysql');
+
 connection.connect(function(err) {
     if (err) {
         console.error("error connecting db: " + err.stack);
