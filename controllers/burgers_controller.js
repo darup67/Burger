@@ -24,7 +24,7 @@ router.post("/create", function(req, res) {
     });
 });
 
-router.put("/update/:id", function(req, res) {
+router.post("/update/:id", function(req, res) {
     var condition = "id = " + req.params.id;
     console.log("condition", condition);
     burger.updateOne({
