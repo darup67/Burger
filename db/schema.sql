@@ -1,4 +1,4 @@
-USE k0jeiipjuruj9prj
+USE burgers_db,
 
 CREATE DATABASE burgers_db; IF NOT EXISTS burgers_db;
 USE burgers_db
