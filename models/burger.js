@@ -9,13 +9,14 @@ var burger = {
             cb(res);
         });
     },
-    insertOne: function(cols, als, cb) {
-        orm.create("burgers", cols, vals, function(res) {
+    insertOne: function(cols, vals, cb) {
+        console.log('burger.js');
+        orm.insertOne("burgers", cols, vals, function(res) {
             cb(res);
         });
     },
     updateOne: function(objColVals, condition, cb) {
-        orm.update("burgers", objColVals, condition, function(res) {
+        orm.updateOne("burgers", objColVals, condition, function(res) {
             cb(res);
         });
     }

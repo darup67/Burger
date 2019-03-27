@@ -2,23 +2,26 @@
 <h1>Burgers!</h1>
 
 <ul>
-	{{#each burgers}}{{/each}}
-		{{#unless this.devoured}}{{/unless}}
-		<li>
-			{{this.burger_name}}
-			<form action="/update/{{ id }}" method="post">
-			<button type="submit">Devour it!</button>
-			</form>
-			</ul>
+	{{#each burgers}}
+		{{#unless this.devoured}}
+			<li>
+				{{this.burger_name}}
+				<form action="/update/{{ this.id }}" method="post">
+					<button type="submit">Devour it!</button>
+				</form>
 			</li>
-
-<ul>
-	{{#each burgers}}{{/each}}
-		{{#if this.devoured}}{{/if}}
-		<li>
-			{{this.burger_name}}
+		{{/unless}}
+	{{/each}}
 </ul>
-</li>
+<ul>
+	{{#each burgers}}
+		{{#if this.devoured}}
+			<li>
+				{{this.burger_name}}
+			</li>
+		{{/if}}
+	{{/each}}
+</ul>
 
 <form action="/create" method="POST">
 	<div class="form-group">

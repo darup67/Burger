@@ -2,23 +2,24 @@ var connection = require("./connection.js");
 
 
 var orm = {
-    selectAll: function(tableName, bg) {
+    selectAll: function(tableName, cb) {
         var queryString = "SELECT * FROM burgers";
         console.log(queryString);
         connection.query(queryString, function(err, result) {
             if (err) {
                 throw err;
             }
-            bg(result);
+            cb(result);
         });
     },
-    insertOne: function(tableName, bg) {
-        var queryString = "INSERT INTO ??";
-        connection.query(queryString, function(err, result) {
+    insertOne: function(tableName, data, cb) {
+        console.log('orm.js');
+        var queryString = "INSERT INTO burgers " + burgers;
+        connection.query(queryString, data, function(err, result) {
             if (err) {
                 throw err;
             }
-            bg(result);
+            cb(result);
         });
     },
     updateOne: function() {
